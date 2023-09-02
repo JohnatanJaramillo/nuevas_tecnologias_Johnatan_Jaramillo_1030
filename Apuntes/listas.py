@@ -88,3 +88,9 @@ print("---------------------")
 print("---------------------")
 for i, edades in enumerate(edad):
     print(i, edades)
+
+labels = ["Id", "Name", "Last_name", "email", "password"]
+usuario = {"1","Pepito", "Perez","pepito@gmail.com","xyz123"}
+
+for i in range(len(usuario)):
+    print(usuario[i])
